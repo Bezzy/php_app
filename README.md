@@ -25,6 +25,8 @@ No library used.
 
 # Improved
 
+Note: a file IMPROVED exist containing the same information.
+
 this section list of bad practices  that the original code (and a bit of this one) contains
 
 ## No MVC pattern
