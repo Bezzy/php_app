@@ -1,7 +1,7 @@
 ## Run
 Go to directory and in the command line enter
 
-php -S localhost:<port>
+php -S localhost:[port]
 
 Software tested only on
 
