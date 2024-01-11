@@ -17,5 +17,8 @@ List of things I would like to add if I had the time.
 - Unit Testing
 - Deployment
 - QueryBuilder
+- Template
+- ORM
 - ...
 
+No library used.
