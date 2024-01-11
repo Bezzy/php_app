@@ -26,7 +26,7 @@ if ($p === "home") {
     $controller = new NewsController();
     $controller->home();
 } else if ($p === "news.show") {
-    $controller = new NewsController();
-    $controller->show();
+    // $controller = new NewsController();
+    // $controller->show();
 }
 //-End Router

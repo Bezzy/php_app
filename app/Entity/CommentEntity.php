@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Entity;
-use Reuse\Entity;
+use Reuse\Entity\Entity;
 
-class CommentEntity {
-
+class CommentEntity extends Entity {
+    public function getNewsId() {
+        return $this->news_id;
+    }
 }

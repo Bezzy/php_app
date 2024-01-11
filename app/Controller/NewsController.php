@@ -7,7 +7,8 @@ class NewsController extends AppController {
 
     public function home() {
         $news = App::get_instance()->get_table("News")->all();
-        $this->render("news/home", compact("news"));
+        $comments = App::get_instance()->get_table("Comment")->all();
+        $this->render("news/home", compact("news", "comments"));
     }
 
     public function show() {

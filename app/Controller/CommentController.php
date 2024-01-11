@@ -13,7 +13,7 @@ class CommentController extends AppController {
     }
 
     public function edit() {
-        var_dump($_POST["news_id"]);
+        // var_dump($_POST["news_id"]);
     }
 
     public function add() {
