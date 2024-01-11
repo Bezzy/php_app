@@ -35,7 +35,7 @@ this section list bad practices that the original code (and a bit of this one) c
 
 ## No MVC pattern
 MVC pattern allows for better code management and is well suited for web application.
-There nothing here guiding the flow of data.
+There is nothing here guiding the flow of data.
 
 ## No dependencies injections
 The code relies a lot on getting the instance of an object to pass data. 
@@ -72,7 +72,7 @@ All credentials should be external to the application business logic.
 ## No proper error handling
 
 ## Don't Repeat yourself
-The code for creating News and Comment objects is duplicated in both NewsManager and CommentManager. It should have a Manager class.  NewsManager and CommentManager should extends from it. This case is handle in the Entity class and Elsewhere.
+The code for Managing News and Comment Entities is duplicated in both NewsManager and CommentManager. It should have a Manager class.  NewsManager and CommentManager should extends from it. This case is handle in the Entity class and Elsewhere.
 
 ## Object Data not well encapsulated
 Some variables in news and comments should be private or protected so the data are well encapsulated.
