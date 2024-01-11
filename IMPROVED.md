@@ -73,3 +73,8 @@ Some variables in news and comments should be private or protected so the data a
 
 ## No use of Table Class
 Table names like news and comment are hardcoded in SQL queries. This is bad and we should have a class providing the right Table for the right operation.
+
+## No Heritance
+There is a lot of code dupplication notably in the ManagerNews and ManagerComment class. We can better organize the application by having one ManagerClass and then
+Manager and Comment can inherit from it. The code would be well decoupled and
+easily comprehensible.
