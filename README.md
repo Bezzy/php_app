@@ -31,7 +31,7 @@ No library used.
 
 Note: a file IMPROVED exist containing the same information.
 
-this section list of bad practices  that the original code (and a bit of this one) contains
+this section list bad practices that the original code (and a bit of this one) contains
 
 ## No MVC pattern
 MVC pattern allows for better code management and is well suited for web application.
