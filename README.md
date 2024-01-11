@@ -11,7 +11,7 @@ MySQL 8.2
 
 # Config
 
-Database credentials can be change in ./config/config.php
+Database credentials can be changed in ./config/config.php
 
 # TODO
 
