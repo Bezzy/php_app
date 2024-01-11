@@ -1,5 +1,6 @@
 <?php
 namespace Reuse;
+
 class Autoloader{
     static function register(){
         spl_autoload_register(array(__CLASS__, 'autoload'));

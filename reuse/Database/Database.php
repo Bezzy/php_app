@@ -3,6 +3,12 @@ namespace Reuse\Database;
 
 use \PDO;
 
+// NOTE(mohamed): This class is responsible for the main management of the
+// database. We can extend it to handle many different database or create
+// an interface. We should be careful here as it has many securities components
+// we should care. And we need propers errors handling but right now it will
+// do.
+
 class Database {
     private $db_name;
     private $db_user;

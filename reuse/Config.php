@@ -5,7 +5,9 @@ namespace Reuse;
 
 // NOTE(mohamed):
 // if you want to use methods of this class always use get_instance first to get
-// the instance of the oject. This is a singleton.
+// the instance of the oject. This is a singleton. I'm not sure I would let
+// things like that. But it's simple to use at that stage of the development
+// of the application.
 class Config {
     private $settings = [];
     private static $instance;

@@ -44,3 +44,7 @@ Some variables in news and comments should be private or protected so the data a
 
 ## No use of Table Class
 Table names like news and comment are hardcoded in SQL queries. This is bad and we should have a class providing the right Table for the right operation.
+
+## Lack of helper Class
+
+It's alway nice to have helpers to handle input forms and so on.

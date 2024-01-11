@@ -3,6 +3,10 @@
 namespace Reuse\Table;
 use Reuse\Database\Database;
 
+// NOTE(Mohamed): Really important class used to handle the queries and management
+// of the tables of the application.
+// An obsious upgraded of that code should be an ORM
+
 class Table {
     protected $table;
     protected $db;
