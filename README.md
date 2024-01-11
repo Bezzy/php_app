@@ -1,4 +1,4 @@
-## Run
+# Run
 Go to directory and in the command line enter
 
 php -S localhost:[port]
@@ -9,7 +9,11 @@ Windows 10 22H2
 Php 8.2.12
 MySQL 8.2
 
-## TODO
+# Config
+
+Database credentials can be change in ./config/config.php
+
+# TODO
 
 List of things I would like to add if I had the time.
 
