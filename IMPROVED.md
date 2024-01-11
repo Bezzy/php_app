@@ -1,3 +1,32 @@
+## Run
+Go to directory and in the command line enter
+
+php -S localhost:[port]
+
+Software tested only on
+
+Windows 10 22H2
+Php 8.2.12
+MySQL 8.2
+
+## TODO
+
+List of things I would like to add if I had the time.
+
+- Router
+- Unit Testing
+- Deployment
+- QueryBuilder
+- Template
+- ORM
+- ...
+
+No library used.
+
+# Improved
+
+this section list of bad practices  that the original code (and a bit of this one) contains
+
 ## No MVC pattern
 MVC pattern allows for better code management and is well suited for web application.
 There nothing here guiding the flow of data.
@@ -44,7 +73,3 @@ Some variables in news and comments should be private or protected so the data a
 
 ## No use of Table Class
 Table names like news and comment are hardcoded in SQL queries. This is bad and we should have a class providing the right Table for the right operation.
-
-## Lack of helper Class
-
-It's alway nice to have helpers to handle input forms and so on.
